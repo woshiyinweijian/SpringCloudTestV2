@@ -36,7 +36,7 @@ public class EurekaConsumerFeignApplication {
 		return user1 == null ? "null" : user1.getName()+":"+user1.getAge();
 	}
 
-	@RequestMapping(method = RequestMethod.POST, value = "/t5")
+	@RequestMapping("/t5")
 	public String t5(User user){
 		User user1 = feignTest.t5(user);
 		return user1 == null ? "null" : user1.getName()+":"+user1.getAge();
