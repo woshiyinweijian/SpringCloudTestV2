@@ -1,0 +1,15 @@
+#应用名
+spring:
+  application:
+    name: eureka-provider
+# 端口号
+server:
+  port: 8081
+# eureka配置
+eureka:
+  instance:
+    hostname: localhost
+    prefer-ip-address: true
+  client:
+    serviceUrl:
+      defaultZone: http://eureka0:8080/eureka/,http://eureka1:8180/eureka/,http://eureka2:8280/eureka/

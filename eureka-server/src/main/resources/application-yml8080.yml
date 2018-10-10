@@ -1,0 +1,18 @@
+#应用名
+spring:
+  application:
+    name: eureka-server
+  profiles:
+    active: yml8080
+# 端口号
+server:
+  port: 8080
+# eureka配置
+eureka:
+  instance:
+    hostname: eureka0
+  client:
+    fetch-registry: false # 禁止到Eureka器中获取注册信息
+    register-with-eureka: false # 禁止将自己作为客户端注册信息到Eureka服务器
+    serviceUrl:
+      defaultZone: http://eureka1:8180/eureka/,http://eureka2:8280/eureka/
