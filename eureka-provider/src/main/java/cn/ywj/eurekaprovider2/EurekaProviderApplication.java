@@ -33,6 +33,12 @@ public class EurekaProviderApplication {
 		return user;
 	}
 
+	@GetMapping("/t6")
+	public String t6() throws InterruptedException {
+		Thread.sleep(3000L);
+		return "t6 from eureka-provider";
+	}
+
 	public static void main(String[] args) {
 		SpringApplication.run(EurekaProviderApplication.class, args);
 	}

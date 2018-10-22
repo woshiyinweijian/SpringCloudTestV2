@@ -34,6 +34,11 @@ public class EurekaProvider2Application {
 		return user;
 	}
 
+	@GetMapping("/t6")
+	public String t6(){
+		return "t6 from eureka-provider-2";
+	}
+
 	public static void main(String[] args) {
 		SpringApplication.run(EurekaProvider2Application.class, args);
 	}

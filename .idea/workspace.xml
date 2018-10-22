@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f166452-d398-4e93-8e80-de8adbca6f4a" name="Default" comment="" />
+    <list default="true" id="7f166452-d398-4e93-8e80-de8adbca6f4a" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_9_6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_15_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_12.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_12.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_12.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_reactive_streams_1_2_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_7.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_0_1_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/eureka-consumer-feign/pom.xml" afterPath="$PROJECT_DIR$/eureka-consumer-feign/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/eureka-consumer-feign/src/main/java/cn/ywj/eurekaconsumerfeign/EurekaConsumerFeignApplication.java" afterPath="$PROJECT_DIR$/eureka-consumer-feign/src/main/java/cn/ywj/eurekaconsumerfeign/EurekaConsumerFeignApplication.java" />
+      <change beforePath="$PROJECT_DIR$/eureka-consumer-feign/src/main/java/cn/ywj/eurekaconsumerfeign/FeignTest.java" afterPath="$PROJECT_DIR$/eureka-consumer-feign/src/main/java/cn/ywj/eurekaconsumerfeign/FeignTest.java" />
+      <change beforePath="$PROJECT_DIR$/eureka-consumer-feign/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/eureka-consumer-feign/src/main/resources/application.yml" />
+      <change beforePath="$PROJECT_DIR$/eureka-provider-2/src/main/java/cn/ywj/eurekaprovider2/EurekaProvider2Application.java" afterPath="$PROJECT_DIR$/eureka-provider-2/src/main/java/cn/ywj/eurekaprovider2/EurekaProvider2Application.java" />
+      <change beforePath="$PROJECT_DIR$/eureka-provider/src/main/java/cn/ywj/eurekaprovider2/EurekaProviderApplication.java" afterPath="$PROJECT_DIR$/eureka-provider/src/main/java/cn/ywj/eurekaprovider2/EurekaProviderApplication.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/eureka-server/target/" />
     <ignored path="$PROJECT_DIR$/eureka-provider/target/" />
     <ignored path="$PROJECT_DIR$/eureka-consumer/target/" />
@@ -19,35 +36,48 @@
       <file leaf-file-name="EurekaProvider2Application.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eureka-provider-2/src/main/java/cn/ywj/eurekaprovider2/EurekaProvider2Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="31" column="31" lean-forward="false" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+            <state relative-caret-position="810">
+              <caret line="38" column="41" lean-forward="false" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
               <folding>
                 <element signature="e#508#509#0" expanded="true" />
                 <element signature="e#526#527#0" expanded="true" />
+                <element signature="e#917#918#0" expanded="true" />
+                <element signature="e#958#959#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EurekaProviderApplication.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EurekaProviderApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eureka-provider/src/main/java/cn/ywj/eurekaprovider2/EurekaProviderApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="31" column="43" lean-forward="false" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+            <state relative-caret-position="756">
+              <caret line="37" column="28" lean-forward="false" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
               <folding>
                 <element signature="e#492#493#0" expanded="true" />
                 <element signature="e#510#511#0" expanded="true" />
+                <element signature="e#766#767#0" expanded="true" />
                 <element signature="e#784#785#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-provider/src/main/java/cn/ywj/eurekaprovider2/User.java">
+      <file leaf-file-name="EurekaConsumerFeignApplicationTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-consumer-feign/src/test/java/cn/ywj/eurekaconsumerfeign/EurekaConsumerFeignApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
-              <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FeignTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-consumer-feign/src/main/java/cn/ywj/eurekaconsumerfeign/FeignTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,14 +85,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-provider-2/src/main/java/cn/ywj/eurekaprovider2/User.java">
+      <file leaf-file-name="EurekaConsumerFeignApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-consumer-feign/src/main/java/cn/ywj/eurekaconsumerfeign/EurekaConsumerFeignApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+            <state relative-caret-position="456">
+              <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#770#771#0" expanded="true" />
+                <element signature="e#797#798#0" expanded="true" />
+                <element signature="e#1437#1438#0" expanded="true" />
+                <element signature="e#1465#1466#0" expanded="true" />
+                <element signature="e#1499#1500#0" expanded="true" />
+                <element signature="e#1537#1538#0" expanded="true" />
+                <element signature="e#1580#1581#0" expanded="true" />
+                <element signature="e#1652#1653#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/eureka-consumer-feign/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -77,67 +125,50 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-provider-2/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-            <state />
-          </provider>
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/word/src/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="788">
-              <caret line="43" column="8" lean-forward="false" selection-start-line="43" selection-start-column="8" selection-end-line="48" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-provider/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="48" column="21" lean-forward="false" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-consumer-feign/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="65" column="21" lean-forward="false" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FeignTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-consumer-feign/src/main/java/cn/ywj/eurekaconsumerfeign/FeignTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="21" column="30" lean-forward="false" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+            <state relative-caret-position="644">
+              <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#940#941#0" expanded="true" />
+                <element signature="e#983#984#0" expanded="true" />
+                <element signature="e#1085#1086#0" expanded="true" />
+                <element signature="e#1115#1116#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EurekaConsumerFeignApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-consumer-feign/src/main/java/cn/ywj/eurekaconsumerfeign/EurekaConsumerFeignApplication.java">
+      <file leaf-file-name="FeiginHystrixTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-consumer-feign/src/main/java/cn/ywj/eurekaconsumerfeign/FeiginHystrixTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="38" column="62" lean-forward="false" selection-start-line="38" selection-start-column="62" selection-end-line="38" selection-end-column="62" />
+            <state relative-caret-position="483">
+              <caret line="27" column="31" lean-forward="false" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
               <folding>
-                <element signature="e#797#798#0" expanded="true" />
-                <element signature="e#824#825#0" expanded="true" />
-                <element signature="e#1418#1419#0" expanded="true" />
-                <element signature="e#1490#1491#0" expanded="true" />
+                <element signature="e#188#189#0" expanded="true" />
+                <element signature="e#215#216#0" expanded="true" />
+                <element signature="e#262#263#0" expanded="true" />
+                <element signature="e#289#290#0" expanded="true" />
+                <element signature="e#351#352#0" expanded="true" />
+                <element signature="e#378#379#0" expanded="true" />
+                <element signature="e#425#426#0" expanded="true" />
+                <element signature="e#452#453#0" expanded="true" />
+                <element signature="e#550#551#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EnableCircuitBreaker.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/cloud/spring-cloud-commons/2.0.1.RELEASE/spring-cloud-commons-2.0.1.RELEASE.jar!/org/springframework/cloud/client/circuitbreaker/EnableCircuitBreaker.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+              <folding>
+                <marker date="1535191478096" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1535191478096" expanded="false" signature="171:457" ph="..." />
+                <marker date="1535191478096" expanded="true" signature="459:597" ph="@{...}" />
               </folding>
             </state>
           </provider>
@@ -152,6 +183,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -180,15 +214,17 @@
         <option value="$PROJECT_DIR$/eureka-consumer/src/main/java/cn/ywj/eurekaconsumer/RibbonConfiguration.java" />
         <option value="$PROJECT_DIR$/eureka-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-consumer/src/main/java/cn/ywj/eurekaconsumer/EurekaConsumerApplication.java" />
-        <option value="$PROJECT_DIR$/eureka-consumer-feign/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/eureka-provider-2/pom.xml" />
-        <option value="$PROJECT_DIR$/eureka-consumer-feign/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-provider-2/src/main/java/cn/ywj/eurekaprovider2/User.java" />
         <option value="$PROJECT_DIR$/eureka-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-consumer-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-provider-2/src/main/java/cn/ywj/eurekaprovider2/EurekaProvider2Application.java" />
         <option value="$PROJECT_DIR$/eureka-consumer-feign/src/main/java/cn/ywj/eurekaconsumerfeign/FeignTest.java" />
         <option value="$PROJECT_DIR$/eureka-consumer-feign/src/main/java/cn/ywj/eurekaconsumerfeign/EurekaConsumerFeignApplication.java" />
-        <option value="$PROJECT_DIR$/eureka-provider-2/src/main/java/cn/ywj/eurekaprovider2/EurekaProvider2Application.java" />
         <option value="$PROJECT_DIR$/eureka-provider/src/main/java/cn/ywj/eurekaprovider2/EurekaProviderApplication.java" />
+        <option value="$PROJECT_DIR$/word/src/Test.java" />
+        <option value="$PROJECT_DIR$/eureka-consumer-feign/src/main/java/cn/ywj/eurekaconsumerfeign/FeiginHystrixTest.java" />
+        <option value="$PROJECT_DIR$/eureka-consumer-feign/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -241,6 +277,7 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -256,26 +293,62 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="SpringCloudTest2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="word" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-consumer-feign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloudTest2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eureka-consumer-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloudTest2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eureka-consumer-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloudTest2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eureka-consumer-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloudTest2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eureka-consumer-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekaconsumerfeign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloudTest2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eureka-consumer-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloudTest2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringCloudTest2" type="b2602c69:ProjectViewProjectNode" />
               <item name="word" type="462c0819:PsiDirectoryNode" />
-              <item name="文档" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -327,6 +400,20 @@
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="word" />
+      <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -493,22 +580,24 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="8">
+    <list size="9">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.eureka8080" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.eureka8180" />
       <item index="2" class="java.lang.String" itemvalue="Spring Boot.eureka8280" />
-      <item index="3" class="java.lang.String" itemvalue="Spring Boot.EurekaServerApplication" />
-      <item index="4" class="java.lang.String" itemvalue="Spring Boot.EurekaProviderApplication" />
-      <item index="5" class="java.lang.String" itemvalue="Spring Boot.EurekaConsumerApplication" />
-      <item index="6" class="java.lang.String" itemvalue="Spring Boot.EurekaProvider2Application" />
-      <item index="7" class="java.lang.String" itemvalue="Spring Boot.EurekaConsumerFeignApplication" />
+      <item index="3" class="java.lang.String" itemvalue="Spring Boot.EurekaConsumerFeignApplication" />
+      <item index="4" class="java.lang.String" itemvalue="Spring Boot.EurekaServerApplication" />
+      <item index="5" class="java.lang.String" itemvalue="Spring Boot.EurekaProviderApplication" />
+      <item index="6" class="java.lang.String" itemvalue="Spring Boot.EurekaConsumerApplication" />
+      <item index="7" class="java.lang.String" itemvalue="Spring Boot.EurekaProvider2Application" />
+      <item index="8" class="java.lang.String" itemvalue="Application.Test" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Spring Boot.EurekaProvider2Application" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.Test" />
         <item index="1" class="java.lang.String" itemvalue="Spring Boot.EurekaProviderApplication" />
-        <item index="2" class="java.lang.String" itemvalue="Spring Boot.EurekaConsumerApplication" />
-        <item index="3" class="java.lang.String" itemvalue="Spring Boot.EurekaServerApplication" />
+        <item index="2" class="java.lang.String" itemvalue="Spring Boot.EurekaProvider2Application" />
+        <item index="3" class="java.lang.String" itemvalue="Spring Boot.EurekaConsumerApplication" />
+        <item index="4" class="java.lang.String" itemvalue="Spring Boot.EurekaServerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -526,19 +615,36 @@
       <option name="presentableId" value="Default" />
       <updated>1539095367492</updated>
       <workItem from="1539095370010" duration="8022000" />
-      <workItem from="1539142759425" duration="12667000" />
+      <workItem from="1539142759425" duration="15229000" />
+      <workItem from="1539176195911" duration="5074000" />
+      <workItem from="1539248887668" duration="57000" />
+      <workItem from="1539356424531" duration="673000" />
+      <workItem from="1539415369599" duration="211000" />
+      <workItem from="1539498028393" duration="543000" />
+      <workItem from="1539501339200" duration="2506000" />
+      <workItem from="1539515286375" duration="796000" />
+      <workItem from="1539609716986" duration="492000" />
+      <workItem from="1540204554890" duration="968000" />
     </task>
+    <task id="LOCAL-00001" summary="hello2">
+      <created>1539167008753</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1539167008754</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20689000" />
+    <option name="totallyTimeSpent" value="34571000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.50714284" sideWeight="0.50158983" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3621922" sideWeight="0.50317967" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -553,11 +659,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43730158" sideWeight="0.49841017" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35980937" sideWeight="0.49682036" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936507" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25198728" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2599364" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -576,6 +682,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hello2" />
+    <option name="LAST_COMMIT_MESSAGE" value="hello2" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="3" />
@@ -583,11 +693,59 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/eureka-provider/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1296">
+          <caret line="48" column="21" lean-forward="false" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-consumer-feign/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1917">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-consumer-feign/src/main/java/cn/ywj/eurekaconsumerfeign/FeignTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="11" column="63" lean-forward="false" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-consumer-feign/src/main/java/cn/ywj/eurekaconsumerfeign/EurekaConsumerFeignApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#770#771#0" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
+            <element signature="e#1437#1438#0" expanded="true" />
+            <element signature="e#1465#1466#0" expanded="true" />
+            <element signature="e#1499#1500#0" expanded="true" />
+            <element signature="e#1537#1538#0" expanded="true" />
+            <element signature="e#1580#1581#0" expanded="true" />
+            <element signature="e#1652#1653#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/eureka-consumer/src/main/java/cn/ywj/eurekaconsumer/EurekaConsumerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="729">
           <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -595,7 +753,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -606,7 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="729">
           <caret line="27" column="18" lean-forward="false" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -615,8 +771,10 @@
         <state relative-caret-position="270">
           <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="50" />
           <folding>
-            <element signature="e#411#412#0" expanded="false" />
-            <element signature="e#459#460#0" expanded="false" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -642,7 +800,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="11" column="59" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -653,7 +810,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="11" column="50" lean-forward="false" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -661,7 +817,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
           <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -669,7 +824,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -677,7 +831,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="74" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -692,31 +845,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-consumer/src/main/java/cn/ywj/ribbon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-consumer/src/main/java/cn/ywj/ribbon/Ribbon2Provider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="19" column="38" lean-forward="false" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-consumer/src/main/java/cn/ywj/ribbon.java" />
+    <entry file="file://$PROJECT_DIR$/eureka-consumer/src/main/java/cn/ywj/ribbon/Ribbon2Provider.java" />
     <entry file="jar://$USER_HOME$/.m2/repository/com/netflix/ribbon/ribbon-loadbalancer/2.2.5/ribbon-loadbalancer-2.2.5.jar!/com/netflix/loadbalancer/AbstractLoadBalancerRule.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -724,18 +861,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="27" />
-          <folding>
-            <marker date="1535191619397" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1535191619397" expanded="false" signature="148:318" ph="..." />
-            <marker date="1535191619397" expanded="false" signature="659:670" ph=" { " />
-            <marker date="1535191619397" expanded="false" signature="722:728" ph=" }" />
-            <marker date="1535191619397" expanded="true" signature="774:831" ph="{...}" />
-            <marker date="1535191619397" expanded="true" signature="888:2379" ph="{...}" />
-            <marker date="1535191619397" expanded="true" signature="2431:2690" ph="{...}" />
-            <marker date="1535191619397" expanded="false" signature="2728:2739" ph=" { " />
-            <marker date="1535191619397" expanded="false" signature="2787:2793" ph=" }" />
-            <marker date="1535191619397" expanded="true" signature="2858:2865" ph="{}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -743,9 +868,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <marker date="1535191619397" expanded="false" signature="0:104" ph="/.../" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -753,11 +875,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="77">
           <caret line="3" column="2" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-          <folding>
-            <marker date="1535191619397" expanded="true" signature="0:104" ph="/.../" />
-            <marker date="1535191619397" expanded="true" signature="299:306" ph="{}" />
-            <marker date="1535191619397" expanded="true" signature="406:640" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -765,10 +882,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-          <folding>
-            <marker date="1535191619397" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1535191619397" expanded="true" signature="321:339" ph="/**...*/" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -776,98 +889,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="543" column="24" lean-forward="false" selection-start-line="543" selection-start-column="24" selection-end-line="543" selection-end-column="24" />
-          <folding>
-            <marker date="1535191619397" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1535191619397" expanded="false" signature="148:1378" ph="..." />
-            <marker date="1535191619397" expanded="true" signature="1994:2098" ph="@{...}" />
-            <marker date="1535191619397" expanded="true" signature="2154:2257" ph="@{...}" />
-            <marker date="1535191619397" expanded="true" signature="3000:4063" ph="{...}" />
-            <marker date="1535191619397" expanded="true" signature="4147:4204" ph="{...}" />
-            <marker date="1535191619397" expanded="false" signature="4257:4268" ph=" { " />
-            <marker date="1535191619397" expanded="false" signature="4330:4336" ph=" }" />
-            <marker date="1535191619397" expanded="true" signature="4418:4510" ph="{...}" />
-            <marker date="1535191619397" expanded="true" signature="4602:4671" ph="{...}" />
-            <marker date="1535191619397" expanded="true" signature="4791:5940" ph="{...}" />
-            <marker date="1535191619397" expanded="true" signature="5992:6916" ph="{...}" />
-            <marker date="1535191619397" expanded="true" signature="6992:7924" ph="{...}" />
-            <marker date="1535191619397" expanded="true" signature="8002:9377" ph="{...}" />
-            <marker date="1535191619397" expanded="true" signature="9442:10131" ph="{...}" />
-            <marker date="1535191619397" expanded="false" signature="10211:10222" ph=" { " />
-            <marker date="1535191619397" expanded="false" signature="10257:10263" ph=" }" />
-            <marker date="1535191619397" expanded="true" signature="10347:10401" ph="{...}" />
-            <marker date="1535191619397" expanded="true" signature="10486:10543" ph="{...}" />
-            <marker date="1535191619397" expanded="true" signature="10631:10691" ph="{...}" />
-            <marker date="1535191619397" expanded="false" signature="10735:10746" ph=" { " />
-            <marker date="1535191619397" expanded="false" signature="10765:10771" ph=" }" />
-            <marker date="1535191619397" expanded="true" signature="10807:10916" ph="{...}" />
-            <marker date="1535191619397" expanded="true" signature="10943:11337" ph="{...}" />
-            <marker date="1535191619397" expanded="true" signature="11369:11562" ph="{...}" />
-            <marker date="1535191619397" expanded="false" signature="11591:11602" ph=" { " />
-            <marker date="1535191619397" expanded="false" signature="11619:11625" ph=" }" />
-            <marker date="1535191619397" expanded="false" signature="11678:11689" ph=" { " />
-            <marker date="1535191619397" expanded="false" signature="11709:11715" ph=" }" />
-            <marker date="1535191619397" expanded="false" signature="11780:11791" ph=" { " />
-            <marker date="1535191619397" expanded="false" signature="11814:11820" ph=" }" />
-            <marker date="1535191619397" expanded="true" signature="11871:12033" ph="{...}" />
-            <marker date="1535191619397" expanded="true" signature="12083:12243" ph="{...}" />
-            <marker date="1535191619397" expanded="true" signature="12302:12631" ph="{...}" />
-            <marker date="1535191619397" expanded="false" signature="12665:12676" ph=" { " />
-            <marker date="1535191619397" expanded="false" signature="12708:12714" ph=" }" />
-            <marker date="1535191619397" expanded="true" signature="12781:13026" ph="{...}" />
-            <marker date="1535191619397" expanded="false" signature="13064:13075" ph=" { " />
-            <marker date="1535191619397" expanded="false" signature="13111:13117" ph=" }" />
-            <marker date="1535191619397" expanded="false" signature="13145:13156" ph=" { " />
-            <marker date="1535191619397" expanded="false" signature="13173:13179" ph=" }" />
-            <marker date="1535191619397" expanded="false" signature="13207:13218" ph=" { " />
-            <marker date="1535191619397" expanded="false" signature="13235:13241" ph=" }" />
-            <marker date="1535191619397" expanded="false" signature="13280:13291" ph=" { " />
-            <marker date="1535191619397" expanded="false" signature="13324:13330" ph=" }" />
-            <marker date="1535191619397" expanded="true" signature="13368:13625" ph="{...}" />
-            <marker date="1535191619397" expanded="true" signature="13663:13909" ph="{...}" />
-            <marker date="1535191619397" expanded="true" signature="13964:14056" ph="{...}" />
-            <marker date="1535191619397" expanded="true" signature="14102:14553" ph="{...}" />
-            <marker date="1535191619397" expanded="true" signature="14607:15058" ph="{...}" />
-            <marker date="1535191619397" expanded="true" signature="15101:16074" ph="{...}" />
-            <marker date="1535191619397" expanded="true" signature="16118:19166" ph="{...}" />
-            <marker date="1535191619397" expanded="true" signature="19206:20139" ph="{...}" />
-            <marker date="1535191619397" expanded="true" signature="20210:20414" ph="{...}" />
-            <marker date="1535191619397" expanded="true" signature="20477:20566" ph="{...}" />
-            <marker date="1535191619397" expanded="true" signature="20613:20624" ph=" { " />
-            <marker date="1535191619397" expanded="true" signature="20679:20685" ph=" }" />
-            <marker date="1535191619397" expanded="false" signature="20726:20737" ph=" { " />
-            <marker date="1535191619397" expanded="false" signature="20793:20799" ph=" }" />
-            <marker date="1535191619397" expanded="true" signature="20864:21368" ph="{...}" />
-            <marker date="1535191619397" expanded="true" signature="21403:21492" ph="{...}" />
-            <marker date="1535191619397" expanded="true" signature="21579:22186" ph="{...}" />
-            <marker date="1535191619397" expanded="false" signature="22229:22240" ph=" { " />
-            <marker date="1535191619397" expanded="false" signature="22296:22302" ph=" }" />
-            <marker date="1535191619397" expanded="true" signature="22347:22836" ph="{...}" />
-            <marker date="1535191619397" expanded="true" signature="22875:23267" ph="{...}" />
-            <marker date="1535191619397" expanded="true" signature="23315:23606" ph="{...}" />
-            <marker date="1535191619397" expanded="true" signature="23650:24649" ph="{...}" />
-            <marker date="1535191619397" expanded="true" signature="24684:25071" ph="{...}" />
-            <marker date="1535191619397" expanded="true" signature="25102:25393" ph="{...}" />
-            <marker date="1535191619397" expanded="true" signature="25421:25735" ph="{...}" />
-            <marker date="1535191619397" expanded="false" signature="25792:25803" ph=" { " />
-            <marker date="1535191619397" expanded="false" signature="25832:25838" ph=" }" />
-            <marker date="1535191619397" expanded="true" signature="25917:25974" ph="{...}" />
-            <marker date="1535191619397" expanded="false" signature="26041:26052" ph=" { " />
-            <marker date="1535191619397" expanded="false" signature="26076:26082" ph=" }" />
-            <marker date="1535191619397" expanded="false" signature="26131:26142" ph=" { " />
-            <marker date="1535191619397" expanded="false" signature="26179:26185" ph=" }" />
-            <marker date="1535191619397" expanded="true" signature="26271:26344" ph="{...}" />
-            <marker date="1535191619397" expanded="true" signature="26373:26655" ph="{...}" />
-            <marker date="1535191619397" expanded="true" signature="26726:27540" ph="{...}" />
-            <marker date="1535191619397" expanded="true" signature="26765:26776" ph="{}" />
-            <marker date="1535191619397" expanded="true" signature="26845:27534" ph="{...}" />
-            <marker date="1535191619397" expanded="true" signature="27559:29839" ph="{...}" />
-            <marker date="1535191619397" expanded="false" signature="27665:27680" ph=" { " />
-            <marker date="1535191619397" expanded="false" signature="27717:27727" ph=" }" />
-            <marker date="1535191619397" expanded="true" signature="27778:29833" ph="{...}" />
-            <marker date="1535191619397" expanded="true" signature="29878:30244" ph="{...}" />
-            <marker date="1535191619397" expanded="true" signature="29899:29910" ph="{}" />
-            <marker date="1535191619397" expanded="true" signature="29938:30238" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -875,12 +896,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="26" column="52" lean-forward="false" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#516#517#0" expanded="false" />
-            <element signature="e#567#568#0" expanded="false" />
-            <element signature="e#692#693#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -888,7 +903,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -896,7 +910,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="14" column="102" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="102" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -907,23 +920,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
           <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-consumer/src/main/java/cn/ywj/eurekaconsumer/Feign2Provider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="42" lean-forward="false" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-consumer/src/main/java/cn/ywj/eurekaconsumer/Feign2Provider.java" />
     <entry file="file://$PROJECT_DIR$/eureka-consumer/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
           <caret line="13" column="93" lean-forward="false" selection-start-line="13" selection-start-column="93" selection-end-line="13" selection-end-column="93" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -931,7 +935,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="30" column="20" lean-forward="false" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -939,36 +942,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="837">
           <caret line="37" column="20" lean-forward="false" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-consumer-feign/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-consumer-feign/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="65" column="21" lean-forward="false" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka-provider-2/src/main/java/cn/ywj/eurekaprovider2/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
+        <state relative-caret-position="108">
           <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -977,18 +957,94 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
+        <state relative-caret-position="1296">
           <caret line="48" column="21" lean-forward="false" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-provider/src/main/java/cn/ywj/eurekaprovider2/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-provider-2/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1161">
+          <caret line="43" column="8" lean-forward="false" selection-start-line="43" selection-start-column="8" selection-end-line="48" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-consumer-feign/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1809">
+          <caret line="67" column="8" lean-forward="false" selection-start-line="67" selection-start-column="8" selection-end-line="70" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-consumer-feign/src/main/java/cn/ywj/eurekaconsumerfeign/FeignTest.java">
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/cloud/spring-cloud-commons/2.0.1.RELEASE/spring-cloud-commons-2.0.1.RELEASE.jar!/org/springframework/cloud/client/circuitbreaker/EnableCircuitBreaker.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="21" column="30" lean-forward="false" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        <state relative-caret-position="297">
+          <caret line="20" column="18" lean-forward="false" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1535191478096" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1535191478096" expanded="false" signature="171:457" ph="..." />
+            <marker date="1535191478096" expanded="true" signature="459:597" ph="@{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-provider-2/src/main/java/cn/ywj/eurekaprovider2/EurekaProvider2Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="38" column="41" lean-forward="false" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+          <folding>
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-provider/src/main/java/cn/ywj/eurekaprovider2/EurekaProviderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="37" column="28" lean-forward="false" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+          <folding>
+            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-consumer-feign/src/test/java/cn/ywj/eurekaconsumerfeign/EurekaConsumerFeignApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/word/src/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding>
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#983#984#0" expanded="true" />
+            <element signature="e#1085#1086#0" expanded="true" />
+            <element signature="e#1115#1116#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1001,60 +1057,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-provider/src/main/java/cn/ywj/eurekaprovider2/User.java">
+    <entry file="file://$PROJECT_DIR$/eureka-consumer-feign/src/main/java/cn/ywj/eurekaconsumerfeign/FeignTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        <state relative-caret-position="324">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-provider-2/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/eureka-consumer-feign/src/main/java/cn/ywj/eurekaconsumerfeign/FeiginHystrixTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="788">
-          <caret line="43" column="8" lean-forward="false" selection-start-line="43" selection-start-column="8" selection-end-line="48" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-provider-2/src/main/java/cn/ywj/eurekaprovider2/EurekaProvider2Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="31" column="31" lean-forward="false" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+        <state relative-caret-position="483">
+          <caret line="27" column="31" lean-forward="false" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
           <folding>
-            <element signature="e#508#509#0" expanded="true" />
-            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka-consumer-feign/src/main/java/cn/ywj/eurekaconsumerfeign/EurekaConsumerFeignApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="38" column="62" lean-forward="false" selection-start-line="38" selection-start-column="62" selection-end-line="38" selection-end-column="62" />
+        <state relative-caret-position="456">
+          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#770#771#0" expanded="true" />
             <element signature="e#797#798#0" expanded="true" />
-            <element signature="e#824#825#0" expanded="true" />
-            <element signature="e#1418#1419#0" expanded="true" />
-            <element signature="e#1490#1491#0" expanded="true" />
+            <element signature="e#1437#1438#0" expanded="true" />
+            <element signature="e#1465#1466#0" expanded="true" />
+            <element signature="e#1499#1500#0" expanded="true" />
+            <element signature="e#1537#1538#0" expanded="true" />
+            <element signature="e#1580#1581#0" expanded="true" />
+            <element signature="e#1652#1653#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-provider/src/main/java/cn/ywj/eurekaprovider2/EurekaProviderApplication.java">
+    <entry file="file://$PROJECT_DIR$/eureka-consumer-feign/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="31" column="43" lean-forward="false" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
-          <folding>
-            <element signature="e#492#493#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-            <element signature="e#784#785#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="405">
+          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
