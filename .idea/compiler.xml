@@ -7,10 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-consumer" />
-        <module name="eureka-consumer-feign" />
         <module name="eureka-provider" />
         <module name="eureka-provider-2" />
         <module name="eureka-server" />
+        <module name="gateway-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,6 +19,7 @@
       <module name="eureka-provider" target="1.8" />
       <module name="eureka-provider-2" target="1.8" />
       <module name="eureka-server" target="1.8" />
+      <module name="gateway-zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

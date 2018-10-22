@@ -1,0 +1,30 @@
+#应用名
+spring:
+    application:
+        name: gateway-zuul
+# 端口号
+server:
+    port: 8803
+# eureka配置
+eureka:
+    instance:
+        hostname: localhost
+    prefer-ip-address: true
+    client:
+        serviceUrl:
+            defaultZone: http://eureka0:8080/eureka/,http://eureka1:8180/eureka/,http://eureka2:8280/eureka/
+
+
+# 上面是普通的基本配置
+
+zuul:
+  routes: 
+    xxx-provider: # 指定一个路由，名字随便写，最好和服务名一样
+        path: /ep/** #当访问/ep/** url时，就会请求到下面的serviceId对应的服务的请求中，如请求/ep/abc.do后会请求到eureka-provider的abc.do方法里
+        serviceId: eureka-provider # 配合上面的path跳转使用
+
+    yyy-provider:
+            path: /ep2/**
+            serviceId: eureka-provider
+  prefix: /ywj #访问加前缀，也就是最终访问要在path前面加上 /ywj
+  ignored-services: eureka-provider #忽略服务名请求，多个就有逗号,隔开;如果想全部忽略，就用 * 符号
