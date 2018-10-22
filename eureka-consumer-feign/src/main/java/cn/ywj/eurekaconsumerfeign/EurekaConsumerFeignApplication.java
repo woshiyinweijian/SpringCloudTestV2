@@ -1,19 +1,18 @@
 package cn.ywj.eurekaconsumerfeign;
 
-import com.netflix.loadbalancer.IRule;
-import com.netflix.loadbalancer.RandomRule;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import org.springframework.cloud.openfeign.EnableFeignClients;
-import org.springframework.context.annotation.Bean;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
 @EnableFeignClients
+@EnableCircuitBreaker
 public class EurekaConsumerFeignApplication {
 
 	@Autowired
@@ -40,6 +39,16 @@ public class EurekaConsumerFeignApplication {
 	public String t5(User user){
 		User user1 = feignTest.t5(user);
 		return user1 == null ? "null" : user1.getName()+":"+user1.getAge();
+	}
+
+	@RequestMapping("/t6")
+	//@HystrixCommand(fallbackMethod = "fallbackMethod")//服务熔断后会调用fallbackMethod方法
+	public String t6(){
+		return feignTest.t6();
+	}
+
+	public String fallbackMethod(){
+		return "t6 from fallbackMethod";
 	}
 
 	public static void main(String[] args) {

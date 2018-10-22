@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
-@FeignClient("eureka-provider")// 指定要访问的服务提供者
+@FeignClient(value = "eureka-provider",fallback = FeiginHystrixTest.class)// 指定要访问的服务提供者与降级处理方法
 public interface FeignTest {
 
     @RequestMapping(method = RequestMethod.GET, value = "/t")// 服务提供的请求地址
@@ -20,4 +20,7 @@ public interface FeignTest {
 
     @RequestMapping(method = RequestMethod.POST, value = "/t5")
     public User t5(User user);
+
+    @RequestMapping(method = RequestMethod.GET, value = "/t6")
+    public String t6();
 }

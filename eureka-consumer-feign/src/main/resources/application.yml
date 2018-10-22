@@ -12,3 +12,24 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://eureka0:8080/eureka/,http://eureka1:8180/eureka/,http://eureka2:8280/eureka/ # 服务的注册发现地址
+
+feign:
+  hystrix:
+   enabled: true #声明 Feign 的 Hystrix 支持
+
+hystrix: # 建议Hystrix的超时 > 其他组件的超时
+  command:
+    default: # default全局
+      execution:
+        timeout:
+          enabled: true
+        isolation:
+          thread:
+            timeoutInMilliseconds:  6000
+
+
+###Ribbon的超时
+ribbon:
+  ReadTimeout:  3000
+  ConnectTimeout: 3000
+
